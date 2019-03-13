@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Product Registration</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="productId">Product Id</label>
+                <input type="text" name="productId" id="productId" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="name">Product Name</label>
+                <input type="text" name="productName" id="productName" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="price">Product Price</label>
+                <input type="number" name="price" id="price" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Product Quantity</label>
+                <input type="text" name="quantity" id="quantity" class="form-control">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
